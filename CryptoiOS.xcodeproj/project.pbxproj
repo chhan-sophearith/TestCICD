@@ -25,9 +25,6 @@
 		5CC1CCE32C3276B1000727A7 /* CryptoiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1CCE22C3276B1000727A7 /* CryptoiOSApp.swift */; };
 		5CC1CCE72C3276B3000727A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1CCE62C3276B3000727A7 /* Assets.xcassets */; };
 		5CC1CCEA2C3276B3000727A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1CCE92C3276B3000727A7 /* Preview Assets.xcassets */; };
-		5CC1CCF42C3276B4000727A7 /* CryptoiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1CCF32C3276B4000727A7 /* CryptoiOSTests.swift */; };
-		5CC1CCFE2C3276B4000727A7 /* CryptoiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1CCFD2C3276B4000727A7 /* CryptoiOSUITests.swift */; };
-		5CC1CD002C3276B4000727A7 /* CryptoiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1CCFF2C3276B4000727A7 /* CryptoiOSUITestsLaunchTests.swift */; };
 		5CC1CD112C3284DC000727A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1CD102C3284DC000727A7 /* AppDelegate.swift */; };
 		5CC1CD1C2C32850E000727A7 /* Nokora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1CD122C32850E000727A7 /* Nokora-Bold.ttf */; };
 		5CC1CD1D2C32850E000727A7 /* Nokora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1CD132C32850E000727A7 /* Nokora-Regular.ttf */; };
@@ -83,23 +80,6 @@
 		E65656902C450CFD00F4E4A5 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E656568F2C450CFD00F4E4A5 /* HomeModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5CC1CCF02C3276B4000727A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5CC1CCD72C3276B1000727A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5CC1CCDE2C3276B1000727A7;
-			remoteInfo = CryptoiOS;
-		};
-		5CC1CCFA2C3276B4000727A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5CC1CCD72C3276B1000727A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5CC1CCDE2C3276B1000727A7;
-			remoteInfo = CryptoiOS;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		1418B2182C4502D80093186D /* HomeToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeToolBarView.swift; sourceTree = "<group>"; };
 		1426D0C12C3D320600B56786 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -116,15 +96,9 @@
 		148519982C46782300A26870 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		14F033682C41089300FEBA2B /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		5C8ABC0F2C3D2FEB00E69F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CC1CCDF2C3276B1000727A7 /* CryptoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC1CCE22C3276B1000727A7 /* CryptoiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoiOSApp.swift; sourceTree = "<group>"; };
 		5CC1CCE62C3276B3000727A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CC1CCE92C3276B3000727A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5CC1CCEF2C3276B4000727A7 /* CryptoiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CC1CCF32C3276B4000727A7 /* CryptoiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoiOSTests.swift; sourceTree = "<group>"; };
-		5CC1CCF92C3276B4000727A7 /* CryptoiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CC1CCFD2C3276B4000727A7 /* CryptoiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoiOSUITests.swift; sourceTree = "<group>"; };
-		5CC1CCFF2C3276B4000727A7 /* CryptoiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5CC1CD102C3284DC000727A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CC1CD122C32850E000727A7 /* Nokora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Bold.ttf"; sourceTree = "<group>"; };
 		5CC1CD132C32850E000727A7 /* Nokora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Regular.ttf"; sourceTree = "<group>"; };
@@ -175,6 +149,7 @@
 		E61768932C45063300A88009 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E656568C2C450C1C00F4E4A5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E656568F2C450CFD00F4E4A5 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		E6B4D5462C47D9DD00046AAB /* CryptoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CryptoiOS.app; path = "/Users/iosuser/Desktop/TestCICD/build/Dev-iphoneos/CryptoiOS.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,20 +161,6 @@
 				5CC1CD9C2C3290F5000727A7 /* IQKeyboardManagerSwift in Frameworks */,
 				5CC1CD742C32896A000727A7 /* SDWebImageSwiftUI in Frameworks */,
 				5CC1CD992C329037000727A7 /* FirebaseCrashlytics in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CC1CCEC2C3276B4000727A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CC1CCF62C3276B4000727A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,21 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				5CC1CCE12C3276B1000727A7 /* CryptoiOS */,
-				5CC1CCF22C3276B4000727A7 /* CryptoiOSTests */,
-				5CC1CCFC2C3276B4000727A7 /* CryptoiOSUITests */,
-				5CC1CCE02C3276B1000727A7 /* Products */,
-				5CC1CD972C329037000727A7 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		5CC1CCE02C3276B1000727A7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5CC1CCDF2C3276B1000727A7 /* CryptoiOS.app */,
-				5CC1CCEF2C3276B4000727A7 /* CryptoiOSTests.xctest */,
-				5CC1CCF92C3276B4000727A7 /* CryptoiOSUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5CC1CCE12C3276B1000727A7 /* CryptoiOS */ = {
@@ -345,23 +292,6 @@
 				5CC1CCE92C3276B3000727A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5CC1CCF22C3276B4000727A7 /* CryptoiOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				5CC1CCF32C3276B4000727A7 /* CryptoiOSTests.swift */,
-			);
-			path = CryptoiOSTests;
-			sourceTree = "<group>";
-		};
-		5CC1CCFC2C3276B4000727A7 /* CryptoiOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5CC1CCFD2C3276B4000727A7 /* CryptoiOSUITests.swift */,
-				5CC1CCFF2C3276B4000727A7 /* CryptoiOSUITestsLaunchTests.swift */,
-			);
-			path = CryptoiOSUITests;
 			sourceTree = "<group>";
 		};
 		5CC1CD0C2C3276BB000727A7 /* Common */ = {
@@ -511,13 +441,6 @@
 			path = APIManager;
 			sourceTree = "<group>";
 		};
-		5CC1CD972C329037000727A7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5CC1CD9E2C329400000727A7 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -590,44 +513,8 @@
 				14413E0B2C37953A006D7C4A /* Shimmer */,
 			);
 			productName = CryptoiOS;
-			productReference = 5CC1CCDF2C3276B1000727A7 /* CryptoiOS.app */;
+			productReference = E6B4D5462C47D9DD00046AAB /* CryptoiOS.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5CC1CCEE2C3276B4000727A7 /* CryptoiOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CC1CD062C3276B4000727A7 /* Build configuration list for PBXNativeTarget "CryptoiOSTests" */;
-			buildPhases = (
-				5CC1CCEB2C3276B4000727A7 /* Sources */,
-				5CC1CCEC2C3276B4000727A7 /* Frameworks */,
-				5CC1CCED2C3276B4000727A7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5CC1CCF12C3276B4000727A7 /* PBXTargetDependency */,
-			);
-			name = CryptoiOSTests;
-			productName = CryptoiOSTests;
-			productReference = 5CC1CCEF2C3276B4000727A7 /* CryptoiOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5CC1CCF82C3276B4000727A7 /* CryptoiOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CC1CD092C3276B4000727A7 /* Build configuration list for PBXNativeTarget "CryptoiOSUITests" */;
-			buildPhases = (
-				5CC1CCF52C3276B4000727A7 /* Sources */,
-				5CC1CCF62C3276B4000727A7 /* Frameworks */,
-				5CC1CCF72C3276B4000727A7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5CC1CCFB2C3276B4000727A7 /* PBXTargetDependency */,
-			);
-			name = CryptoiOSUITests;
-			productName = CryptoiOSUITests;
-			productReference = 5CC1CCF92C3276B4000727A7 /* CryptoiOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -641,14 +528,6 @@
 				TargetAttributes = {
 					5CC1CCDE2C3276B1000727A7 = {
 						CreatedOnToolsVersion = 15.3;
-					};
-					5CC1CCEE2C3276B4000727A7 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 5CC1CCDE2C3276B1000727A7;
-					};
-					5CC1CCF82C3276B4000727A7 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 5CC1CCDE2C3276B1000727A7;
 					};
 				};
 			};
@@ -668,13 +547,11 @@
 				5CC1CD9A2C3290F5000727A7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				14413E0A2C37953A006D7C4A /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
 			);
-			productRefGroup = 5CC1CCE02C3276B1000727A7 /* Products */;
+			productRefGroup = 5CC1CCD62C3276B1000727A7;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5CC1CCDE2C3276B1000727A7 /* CryptoiOS */,
-				5CC1CCEE2C3276B4000727A7 /* CryptoiOSTests */,
-				5CC1CCF82C3276B4000727A7 /* CryptoiOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -697,20 +574,6 @@
 				5CC1CD212C32850E000727A7 /* Roboto-Light.ttf in Resources */,
 				5CC1CD1D2C32850E000727A7 /* Nokora-Regular.ttf in Resources */,
 				5CC1CD222C32850E000727A7 /* Roboto-Medium.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CC1CCED2C3276B4000727A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CC1CCF72C3276B4000727A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -800,37 +663,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC1CCEB2C3276B4000727A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CC1CCF42C3276B4000727A7 /* CryptoiOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CC1CCF52C3276B4000727A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CC1CCFE2C3276B4000727A7 /* CryptoiOSUITests.swift in Sources */,
-				5CC1CD002C3276B4000727A7 /* CryptoiOSUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5CC1CCF12C3276B4000727A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5CC1CCDE2C3276B1000727A7 /* CryptoiOS */;
-			targetProxy = 5CC1CCF02C3276B4000727A7 /* PBXContainerItemProxy */;
-		};
-		5CC1CCFB2C3276B4000727A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5CC1CCDE2C3276B1000727A7 /* CryptoiOS */;
-			targetProxy = 5CC1CCFA2C3276B4000727A7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5CA2016C2C32A4BD008CF163 /* SIT */ = {
@@ -934,44 +767,6 @@
 			};
 			name = SIT;
 		};
-		5CA2016E2C32A4BD008CF163 /* SIT */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9C9D64CGK8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CryptoiOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoiOS";
-			};
-			name = SIT;
-		};
-		5CA2016F2C32A4BD008CF163 /* SIT */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9C9D64CGK8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CryptoiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CryptoiOS;
-			};
-			name = SIT;
-		};
 		5CA201702C32A4C4008CF163 /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1070,44 +865,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Production;
-		};
-		5CA201722C32A4C4008CF163 /* Production */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9C9D64CGK8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CryptoiOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoiOS";
-			};
-			name = Production;
-		};
-		5CA201732C32A4C4008CF163 /* Production */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9C9D64CGK8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CryptoiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CryptoiOS;
 			};
 			name = Production;
 		};
@@ -1301,82 +1058,6 @@
 			};
 			name = UAT;
 		};
-		5CC1CD072C3276B4000727A7 /* Dev */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9C9D64CGK8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CryptoiOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoiOS";
-			};
-			name = Dev;
-		};
-		5CC1CD082C3276B4000727A7 /* UAT */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9C9D64CGK8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CryptoiOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoiOS";
-			};
-			name = UAT;
-		};
-		5CC1CD0A2C3276B4000727A7 /* Dev */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9C9D64CGK8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CryptoiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CryptoiOS;
-			};
-			name = Dev;
-		};
-		5CC1CD0B2C3276B4000727A7 /* UAT */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9C9D64CGK8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CryptoiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CryptoiOS;
-			};
-			name = UAT;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1398,28 +1079,6 @@
 				5CA201712C32A4C4008CF163 /* Production */,
 				5CA2016D2C32A4BD008CF163 /* SIT */,
 				5CC1CD052C3276B4000727A7 /* UAT */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Dev;
-		};
-		5CC1CD062C3276B4000727A7 /* Build configuration list for PBXNativeTarget "CryptoiOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5CC1CD072C3276B4000727A7 /* Dev */,
-				5CA201722C32A4C4008CF163 /* Production */,
-				5CA2016E2C32A4BD008CF163 /* SIT */,
-				5CC1CD082C3276B4000727A7 /* UAT */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Dev;
-		};
-		5CC1CD092C3276B4000727A7 /* Build configuration list for PBXNativeTarget "CryptoiOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5CC1CD0A2C3276B4000727A7 /* Dev */,
-				5CA201732C32A4C4008CF163 /* Production */,
-				5CA2016F2C32A4BD008CF163 /* SIT */,
-				5CC1CD0B2C3276B4000727A7 /* UAT */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Dev;

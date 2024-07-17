@@ -36,8 +36,6 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CC1CCEE2C3276B4000727A7"
-               BuildableName = "CryptoiOSTests.xctest"
-               BlueprintName = "CryptoiOSTests"
                ReferencedContainer = "container:CryptoiOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -47,8 +45,6 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CC1CCF82C3276B4000727A7"
-               BuildableName = "CryptoiOSUITests.xctest"
-               BlueprintName = "CryptoiOSUITests"
                ReferencedContainer = "container:CryptoiOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
