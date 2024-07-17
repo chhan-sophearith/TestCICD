@@ -19,6 +19,8 @@
 		E61BF50D2C477DF8005171E6 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E61BF50C2C477DF8005171E6 /* IQKeyboardManagerSwift */; };
 		E61BF50F2C477E02005171E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61BF50E2C477E02005171E6 /* AppDelegate.swift */; };
 		E61BF5112C477E49005171E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E61BF5102C477E49005171E6 /* GoogleService-Info.plist */; };
+		E6740F3E2C47A2D8004467FE /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E6740F3D2C47A2D8004467FE /* SDWebImageSwiftUI */; };
+		E6740F412C47A2F0004467FE /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = E6740F402C47A2F0004467FE /* Shimmer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +38,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6740F3E2C47A2D8004467FE /* SDWebImageSwiftUI in Frameworks */,
 				E61BF5062C477DD6005171E6 /* FirebaseAnalyticsSwift in Frameworks */,
 				E61BF5022C477DD6005171E6 /* FirebaseAnalytics in Frameworks */,
 				E61BF5042C477DD6005171E6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				E6740F412C47A2F0004467FE /* Shimmer in Frameworks */,
 				E61BF50A2C477DD6005171E6 /* FirebaseAppCheck in Frameworks */,
 				E61BF5082C477DD6005171E6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				E61BF50D2C477DF8005171E6 /* IQKeyboardManagerSwift in Frameworks */,
@@ -95,6 +99,7 @@
 				E61BF4EB2C477806005171E6 /* Sources */,
 				E61BF4EC2C477806005171E6 /* Frameworks */,
 				E61BF4ED2C477806005171E6 /* Resources */,
+				E6740F3B2C47A235004467FE /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -108,6 +113,8 @@
 				E61BF5072C477DD6005171E6 /* FirebaseAnalyticsWithoutAdIdSupport */,
 				E61BF5092C477DD6005171E6 /* FirebaseAppCheck */,
 				E61BF50C2C477DF8005171E6 /* IQKeyboardManagerSwift */,
+				E6740F3D2C47A2D8004467FE /* SDWebImageSwiftUI */,
+				E6740F402C47A2F0004467FE /* Shimmer */,
 			);
 			productName = Crypto;
 			productReference = E61BF4EF2C477806005171E6 /* Crypto.app */;
@@ -140,6 +147,9 @@
 			packageReferences = (
 				E61BF5002C477DD6005171E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				E61BF50B2C477DF8005171E6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				E6740F3A2C47A22A004467FE /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				E6740F3C2C47A2D7004467FE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				E6740F3F2C47A2F0004467FE /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
 			);
 			productRefGroup = E61BF4F02C477806005171E6 /* Products */;
 			projectDirPath = "";
@@ -162,6 +172,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6740F3B2C47A235004467FE /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E61BF4EB2C477806005171E6 /* Sources */ = {
@@ -307,6 +338,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Crypto/Preview Content\"";
 				DEVELOPMENT_TEAM = Y88N7N2824;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -338,6 +370,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Crypto/Preview Content\"";
 				DEVELOPMENT_TEAM = Y88N7N2824;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -398,6 +431,30 @@
 				minimumVersion = 7.0.3;
 			};
 		};
+		E6740F3A2C47A22A004467FE /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.55.1;
+			};
+		};
+		E6740F3C2C47A2D7004467FE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		E6740F3F2C47A2F0004467FE /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -430,6 +487,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E61BF50B2C477DF8005171E6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
+		};
+		E6740F3D2C47A2D8004467FE /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6740F3C2C47A2D7004467FE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		E6740F402C47A2F0004467FE /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6740F3F2C47A2F0004467FE /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
+			productName = Shimmer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
