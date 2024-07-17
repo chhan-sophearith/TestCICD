@@ -139,7 +139,6 @@
 			);
 			mainGroup = E61BF4E62C477806005171E6;
 			packageReferences = (
-				E6740F2B2C478D2F004467FE /* XCRemoteSwiftPackageReference "SwiftLint" */,
 				E6740F2C2C478D3A004467FE /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				E6740F2F2C478D5A004467FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
@@ -504,14 +503,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E6740F2B2C478D2F004467FE /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/SwiftLint";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.55.1;
-			};
-		};
 		E6740F2C2C478D3A004467FE /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
