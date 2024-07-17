@@ -149,7 +149,7 @@
 		E61768932C45063300A88009 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E656568C2C450C1C00F4E4A5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E656568F2C450CFD00F4E4A5 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
-		E6B4D5462C47D9DD00046AAB /* CryptoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CryptoiOS.app; path = "/Users/iosuser/Desktop/TestCICD/build/Dev-iphoneos/CryptoiOS.app"; sourceTree = "<absolute>"; };
+		E68A97592C47DFC100844AA7 /* CryptoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				5CC1CCE12C3276B1000727A7 /* CryptoiOS */,
+				E68A97592C47DFC100844AA7 /* CryptoiOS.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -513,7 +514,7 @@
 				14413E0B2C37953A006D7C4A /* Shimmer */,
 			);
 			productName = CryptoiOS;
-			productReference = E6B4D5462C47D9DD00046AAB /* CryptoiOS.app */;
+			productReference = E68A97592C47DFC100844AA7 /* CryptoiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1149,7 +1150,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CryptoiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) Dev";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -65,6 +65,9 @@ struct HomeView: View {
                     .padding(16)
                 }
             }
+            .overlay {
+                Text("Hi this is\(BaseUrl.name)")
+            }
         }
         .onAppear {
 //            viewModel.testingApi()

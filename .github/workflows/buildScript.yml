@@ -47,10 +47,10 @@ jobs:
 
       - name: Build Archive
         run: |
-          xcodebuild -scheme "CryptoiOS" \
+          xcodebuild -scheme "SIT-CryptoiOS" \
           -archivePath $RUNNER_TEMP/CryptoiOS.xcarchive \
           -sdk iphoneos \
-          -configuration Debug \
+          -configuration SIT \
           -allowProvisioningUpdates \
           -destination generic/platform=iOS \
           clean archive     
