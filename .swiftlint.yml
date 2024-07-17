@@ -1,0 +1,37 @@
+type_name:
+  max_length: 50
+
+vertical_whitespace:
+  severity: error
+  
+identifier_name:
+  min_length:
+    warning: 0 
+    error: 1
+
+line_length:
+  warning: 180
+  error: 200
+
+cyclomatic_complexity:
+  ignores_case_statements: true
+
+function_body_length:
+  warning: 70
+  error: 200
+
+file_length:
+  warning: 500
+  error: 1200
+  
+force_cast: warning
+
+nesting:
+    type_level: 3
+    
+disabled_rules:
+  - trailing_whitespace
+ 
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  - build

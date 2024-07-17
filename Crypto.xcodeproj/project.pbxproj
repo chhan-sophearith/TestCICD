@@ -95,6 +95,7 @@
 				E61BF4EB2C477806005171E6 /* Sources */,
 				E61BF4EC2C477806005171E6 /* Frameworks */,
 				E61BF4ED2C477806005171E6 /* Resources */,
+				E6740F282C478B33004467FE /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -140,6 +141,7 @@
 			packageReferences = (
 				E61BF5002C477DD6005171E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				E61BF50B2C477DF8005171E6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				E6740F272C478AE4004467FE /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = E61BF4F02C477806005171E6 /* Products */;
 			projectDirPath = "";
@@ -162,6 +164,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6740F282C478B33004467FE /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E61BF4EB2C477806005171E6 /* Sources */ = {
@@ -307,6 +330,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Crypto/Preview Content\"";
 				DEVELOPMENT_TEAM = Y88N7N2824;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -338,6 +362,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Crypto/Preview Content\"";
 				DEVELOPMENT_TEAM = Y88N7N2824;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -396,6 +421,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 7.0.3;
+			};
+		};
+		E6740F272C478AE4004467FE /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.55.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
